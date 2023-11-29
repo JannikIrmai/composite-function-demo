@@ -47,7 +47,7 @@ class PlotCompositeFunction:
 
     def draw_nodes(self):
         for n in self._f.get_nodes():
-            circle = Circle((0, 0), radius=self._node_radius, edgecolor="black", facecolor="lightgray", picker)
+            circle = Circle((0, 0), radius=self._node_radius, edgecolor="black", facecolor="lightgray")
             self._node_handles[n] = circle
             self._ax.add_patch(circle)
 
