@@ -14,3 +14,6 @@ Depicted on the bottom left is some labeled data (blue and red dots) as well as 
 the compute graph.
 Depicted on the right is the learning objective in dependence of the parameters. 
 To change a parameter, click on the desired value in the plot.
+
+From the plots on the right it can be seen that the learning objective is not convex. 
+In fact, it is quite difficult to find parameters that minimize the learning objective.
